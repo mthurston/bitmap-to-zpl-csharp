@@ -7,8 +7,8 @@ using System.Text;
 namespace MyNamespace.Helpers
 {
     /// <summary>
-    /// ZPLConverterHelper to assist in converting bitmap images into zpl strings.  Base on context of conversion output zpl strings can either 
-    /// output ^GF[A] zpl command input strings, or an entire valid ZPL label including headers and footers.
+    /// ZPLConverterHelper to assist in converting bitmap images into zpl strings.  Context of conversion output zpl strings will be either a string
+    /// output ^GF[A] zpl command input or an entire valid ZPL label including headers and footers.
     /// </summary>
     public class ZPLConverterHelper
     {
